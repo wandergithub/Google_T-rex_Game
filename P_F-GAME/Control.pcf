@@ -1,0 +1,39 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Apr 29 20:18:53 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "aL" LOCATE = SITE "B16" LEVEL 1;
+COMP "aR" LOCATE = SITE "A16" LEVEL 1;
+COMP "start_button" LOCATE = SITE "K18" LEVEL 1;
+COMP "dot" LOCATE = SITE "A5" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "B11" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "A11" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "Bas<0>" LOCATE = SITE "B3" LEVEL 1;
+COMP "Bas<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "Bas<2>" LOCATE = SITE "B2" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "Seg<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "Seg<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "Seg<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "Seg<3>" LOCATE = SITE "C4" LEVEL 1;
+COMP "Seg<4>" LOCATE = SITE "C5" LEVEL 1;
+COMP "Seg<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "Seg<6>" LOCATE = SITE "C6" LEVEL 1;
+COMP "left_button" LOCATE = SITE "M18" LEVEL 1;
+COMP "down_button" LOCATE = SITE "M16" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "A9" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "B9" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "C9" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "C10" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "A10" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "up_button" LOCATE = SITE "L17" LEVEL 1;
+COMP "right_button" LOCATE = SITE "L18" LEVEL 1;
+COMP "vsync" LOCATE = SITE "A12" LEVEL 1;
+COMP "reset_button" LOCATE = SITE "K17" LEVEL 1;
+NET "clock_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+
